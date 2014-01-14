@@ -16,7 +16,7 @@ app.all('*', function(req, res, next) {
 });
 
 app.get('/', function(req, res) {
-	res.render('arsenal.ejs');
+	res.render('index.ejs');
 });
 
 app.get('/post/:slug', function(req, res, next) {
